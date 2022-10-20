@@ -20,7 +20,7 @@ jobs:
     - name: Write value to Properties-file
       uses: christian-draeger/write-properties@1.1.0
       with:
-        path: '.flowtherock-app/src/main/resources/application.properties'
+        path: './flowtherock-app/src/main/resources/application.properties'
         property: |
           'spotify-client-id'
           'spotify-client-secret'
